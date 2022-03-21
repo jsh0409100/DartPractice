@@ -30,6 +30,7 @@ class _DrawerPracticeState extends State<DrawerPractice> {
         title: const Text('Drawer'),
       ),
       //Step 1, set drawer in scaffold
+      //endDrawer은 오른쪽에서 나오는 걸로 사용 가능
       drawer: Drawer(
         child: ListView(
           //scrollDirection: Axis.horizontal,
